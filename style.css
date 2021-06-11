@@ -1,0 +1,83 @@
+body {
+  margin-top: 100px;
+  font-family: "Playfair Display", serif;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+}
+
+input {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 10px;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+}
+
+h1 {
+  text-align: center;
+  line-height: 45px;
+  color: #2d53b5;
+  margin: 50px;
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  text-align: center;
+}
+.card {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 100px;
+  border: solid 2px#A1C8FF;
+  padding: 40px;
+  margin-bottom: 50px;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  font-size: 30px;
+}
+
+ul {
+  font-size: 15px;
+  list-style-type: none;
+}
+#temperature-description {
+  text-transform: capitalize;
+}
+.forecast {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: solid #000 2px;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 20px;
+  color: #2d53b5;
+}
+.col-2 {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.col {
+  display: block;
+  text-align: center;
+  font-size: large;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
